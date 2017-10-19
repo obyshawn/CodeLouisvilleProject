@@ -20,9 +20,6 @@ img {
   max-width: 100%;
 }
 
-h3 {
-  margin: 0 0 1em 0;
-}
 
 
 
@@ -50,10 +47,16 @@ h1 {
   line-height: 0.8em;
 }
 
-h2 {
-  font-size: 40px;
+#hours h2 {
+  font-size: 1.25em;
   margin: -5px 0 0;
-  font-weight: normal;
+  /*font-weight: normal;*/
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+  padding-top: 2%;
 }
 
 
@@ -105,9 +108,9 @@ footer {
 
 #gallery li a p {
   margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7
+  padding: 3%;
+  font-size: 18px;
+  color: black;
 }
 
 
@@ -122,6 +125,7 @@ PAGE: HOME
 }
 
 #gallery {
+  text-align: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -155,6 +159,10 @@ PAGE: ABOUT
 PAGE: CONTACT
 *********************************************/
 
+#form h1 {
+  font-size: 1.2em;
+}
+
 .contact-info {
   list-style: none;
   padding: 0;
@@ -172,17 +180,35 @@ PAGE: CONTACT
 }
 
 .contact-info li.phone a {
+  color: #999;
   background-image: url('../img/phone.png');
 }
 
 
 .contact-info li.mail a {
+  color: #999;
   background-image: url('../img/mail.png');
 }
 
-.contact-info li.twitter a {
+.contact-info li.linkedin a {
+  color: #999;
   background-image: url('../img/twitter.png');
 }
+
+#contact h2 {
+  font-size: 1.2em;
+  margin: -5px 0 0;
+  /*font-weight: normal;*/
+}
+
+/********************************************
+PAGE: LOCATION
+*********************************************/
+
+iframe {
+  padding-top: 2%;
+}
+
 
 
 /********************************************
@@ -207,7 +233,7 @@ nav {
 }
 
 /* logo text */
-h1 {
+h1, h2, h3 {
   color: #fff;
 }
 
