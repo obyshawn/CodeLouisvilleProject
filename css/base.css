@@ -1,8 +1,8 @@
 /* Form -------------------- */
 
 .form-contact {
-  padding: 20px 24px;
-  background: #f4f7f8;
+  margin-top: none;
+  background: black;
 }
 label {
   display: block;
@@ -34,6 +34,7 @@ textarea {
 form > a {
   font-size: .85em;
 }
+
 input[type="checkbox"] + label {
   font-weight: 300;
 	font-size: .85em;
