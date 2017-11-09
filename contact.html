@@ -3,87 +3,84 @@
   <head>
     <meta charset="utf-8">
     <title>LP Productions</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     <link rel="stylesheet" href="css/base.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1 id="company">L.P. Productions</h1>
-      </a>
-      <nav>
-        <ul id="nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html" class="selected">Contact</a></li>
-					<li><a href="services.html">Services</a></li>
-					<!-- <li><a href="location.html">Location</a></li> -->
-        </ul>
-      </nav>
-    </header>
+    <header class="main-header">
+  		<ul class="main-nav">
+  			<li><a href="index.html">Home</a></li>
+  			<li><a href="about.html">About</a></li>
+  			<li><a href="contact.html">Contact</a></li>
+  			<li><a href="services.html">Services</a></li>
+  		</ul>
+  	</header><!--/.main-header-->
+
+  	<div class="banner">
+  		<img class="logo" src="img/LPLogo.jpg" alt="LP">
+  		<h1 class="headline">L.P. Productions</h1>
+  	</div><!--/.banner-->
     <div id="wrapper">
       <section id="primary">
-        <!-- <h2 id="contact">General Information</h2>
-        <p>I am currently looking for work in production or production management within a broadcast or advertising capacity.  If you have any questions, please don't hesitate to contact me.</p>
-        <p>Please only call in the case of urgent inquiries.  Otherwise email or linkedin are the best way to reach me.</p> -->
-        <h2 id="hours">Office Hours</h2>
-          <p>We are open Monday through Saturday. Call for Holiday hours. Website and phone support are available 24/7.</p>
-          <p>Sunday: CLOSED</p>
-          <p>Monday: 9:00 AM to 5:00 PM</p>
-          <p>Tuesday: 9:00 AM to 5:00 PM</p>
-          <p>Wednesday: 9:00 AM to 5:00 PM</p>
-          <p>Thursday: 9:00 AM to 5:00 PM</p>
-          <p>Friday: 9:00 AM to 5:00 PM</p>
-          <p>Saturday: 10:00 AM to 4:00 PM</p>
-        <h3>Address</h3>
-          <p>4820 Old LaGrange Road</p>
-          <p>Buckner, Ky 40010</p>
-          <p>Phone or Text: Contact: (502) 376-9572</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.9987319816423!2d-85.4450024847748!3d38.372150779655044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88699a9933198f95%3A0x15aa8d10d30db67c!2s4820+Old+Lagrange+Rd%2C+Buckner%2C+KY+40010!5e0!3m2!1sen!2sus!4v1508453524456" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <h2 id="hours" class="hours">Office Hours</h2>
+          <div>
+            <p>We are open Monday through Saturday. Call for Holiday hours. Website and phone support are available 24/7.</p>
+          </div>
+          <div class="hours">
+            <p>Sunday: CLOSED</p>
+            <p>Monday: 9:00 AM to 5:00 PM</p>
+            <p>Tuesday: 9:00 AM to 5:00 PM</p>
+            <p>Wednesday: 9:00 AM to 5:00 PM</p>
+            <p>Thursday: 9:00 AM to 5:00 PM</p>
+            <p>Friday: 9:00 AM to 5:00 PM</p>
+            <p>Saturday: 10:00 AM to 4:00 PM</p>
+          </div>
+        <h2 id="address">Address</h2>
+          <div class="address">
+            <p>4820 Old LaGrange Road</p>
+            <p>Buckner, Ky 40010</p>
+            <p>Phone: (502) 222-0225</p>
+          </div>
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3127.9987319816423!2d-85.4450024847748!3d38.372150779655044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88699a9933198f95%3A0x15aa8d10d30db67c!2s4820+Old+Lagrange+Rd%2C+Buckner%2C+KY+40010!5e0!3m2!1sen!2sus!4v1508453524456" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
       </section>
+
+
       <section id="secondary">
-        <div id="container">
-      		<form class="form-contact br">
-      	  	<h4 id="form">Contact</h1>
+          <div id="container">
+        		<form class="form-contact br">
+        	  	<h4 id="form">Contact</h1>
 
-      		  <label for="name">Name:</label>
-      		  <input type="text" id="name">
+        		  <label for="name">Name:</label>
+        		  <input type="text" id="name">
 
-           	<label for="email">Email:</label>
-           	<input type="email" id="email" placeholder="email@website.com">
+             	<label for="email">Email:</label>
+             	<input type="email" id="email" placeholder="email@website.com">
 
-      			<label>Needs:</label>
-      			<input type="checkbox" id="development" name="user_interest"><label for="development">Concert Production</label><br>
-      			<input type="checkbox" id="design" name="user_interest"><label for="design">Backline</label><br>
-      			<input type="checkbox" id="business" name="user_interest"><label for="business">Staging Systems</label><br>
-            <input type="checkbox" id="other" name="user_other"><label for="other">Other (Specify)</label><br>
+        			<label>Needs:</label>
+        			<input type="checkbox" id="production" name="user_interest"><label for="production">Concert Production</label><br>
+        			<input type="checkbox" id="backline" name="user_interest"><label for="backline">Backline</label><br>
+        			<input type="checkbox" id="staging" name="user_interest"><label for="staging">Staging Systems</label><br>
+              <input type="checkbox" id="other" name="user_interest"><label for="other">Other (Specify)</label><br>
 
-           	<label for="msg">Message:</label>
-       			<textarea id="msg" rows="4"></textarea>
+             	<label for="msg">Message:</label>
+         			<textarea id="msg" rows="4"></textarea>
 
-      		  <input class="btn default" type="submit" value="Submit">
-      		</form>
-      	</div>
-        <!-- <h3>Contact Details</h3>
-        <ul class="contact-info">
-          <li class="phone"><a href="tel:(502) 222-0225">(502) 222-0225</a></li>
-          <li class="mail"><a href="mailto:denver@lpproductions.com">denver@lpproductions.com</a></li>
-          <li class="linkedin"><a href="http://linkedin.com/in/shawn-taylor-70596a138/">Shawn Taylor</a></li>
-        </ul> -->
+        		  <input class="btn default" type="submit" value="Submit">
+        		</form>
+        	</div>
+
       </section>
+
       <footer>
-        <footer>
-    			<div id="copyright">© L.P. Productions, LLC All rights reserved</div>
-    		</footer>
-        <!-- <a href="http://linkedin.com/in/shawn-taylor-70596a138/"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/nickpettit"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <p>&copy; 2017 Shawn Taylor.</p> -->
-      <!-- </footer> -->
-    </div>
-		<!-- <footer>
-			<div id="copyright">© L.P. Productions, LLC All rights reserved</div>
-		</footer> -->
+        <a href="https://twitter.com/LPProductionsKY"><img src="img/twitter.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/yourproductionservicecompany/?ref=hl"><img src="img/facebook.png" alt="Facebook Logo" class="social-icon"></a>
+  			<div id="copyright">© L.P. Productions, LLC All rights reserved</div>
+  		</footer>
 	</body>
 </html>

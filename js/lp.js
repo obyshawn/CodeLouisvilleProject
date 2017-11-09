@@ -9,7 +9,6 @@ $overlay.append($image);
 $overlay.append($caption);
 
 //Add overlay
-// $("body").append('<div id="overlay"></div>')
 $("body").append($overlay);
 
 //Capture the click event on a link to an image
@@ -18,7 +17,7 @@ $("body").append($overlay);
 //   var href = $(this).attr("href");
 //   console.log(href);
 // });
-$("#gallery a").click(function(event) {
+$("#imageGallery a").click(function(event) {
   event.preventDefault();
   var imageLocation = $(this).attr("href");
   //Update overlay with the image linked in the link
