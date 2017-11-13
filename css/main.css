@@ -11,6 +11,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
+
+body {
+  background-color: black;
+  color: #999;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -59,7 +65,7 @@ h1 {
 }
 
 .banner {
-	color: #fff;
+	color: white;
 	background: grey;
 	padding: 1em 0;
 	margin-bottom: 48px;
@@ -100,8 +106,8 @@ NAVIGATION
   text-decoration: none;
 }
 
-.selected {
-  color: lightgrey;
+ul#nav .active {
+  color: grey;
 }
 
 /********************************************
@@ -292,31 +298,7 @@ SERVICES
 COLORS
 *********************************************/
 
-/* site body */
-body {
-  background-color: black;
-  color: #999;
-}
 
-/* logo text */
-h1, h2, h3 {
-  color: #fff;
-}
-
-/* links */
-/*a {
-  color: #6ab47b;
-}*/
-
-/* nav link */
-/*nav a, nav a:visited {
-  color: #fff;
-}*/
-
-/* selected nav link */
-/*nav a.active, nav a:hover {
-  color: lightgrey;
-}*/
 
 /* =================================
   Media Queries
