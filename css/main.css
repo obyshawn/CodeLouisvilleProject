@@ -35,16 +35,6 @@ img {
   max-width: 100%;
 }
 
-/*#gallery li {
-  width: 28.3333%;
-}
-
-#gallery li:nth-child(4n) {
-  clear: left;
-}*/
-
-
-
 
 /********************************************
 HEADING
@@ -294,12 +284,6 @@ SERVICES
 
 
 
-/********************************************
-COLORS
-*********************************************/
-
-
-
 /* =================================
   Media Queries
 ==================================== */
@@ -335,11 +319,12 @@ COLUMNS
 
   #primary {
     width: 90%;
+    padding: 0 0 0 10%;
     text-align: center;
   }
 
   #secondary {
     width: 90%;
-    padding: 3em 4em 0 0;
+    padding: 10% 10% 0 0;
   }
 }
