@@ -11,4 +11,5 @@ Additional content will be added to the "services" and "about" pages once all th
 This website uses the following libraries:
 
 [jquery](https://code.jquery.com/jquery-3.2.1.js)
+
 [bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css)
